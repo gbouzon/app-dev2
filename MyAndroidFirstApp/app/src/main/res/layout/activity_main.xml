@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_dark"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Hello World!"
+        android:textAllCaps="true"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="50sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:text="Sakku"
+        android:textSize="35sp" />
+
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:text="LOG in as user"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="35sp"
+        android:textStyle="normal|bold" />
+
+    <Button
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="@android:color/holo_red_light"
+        android:backgroundTint="@android:color/background_light"
+        android:text="Password" />
+
+    <Button
+        android:id="@+id/ConnecttoNew"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/teal_700"
+        android:text="Go to New"
+        android:textSize="28sp" />
+
+    <ImageView
+       android:id="@+id/lion"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:src="@drawable/lion"/>
+
+
+</LinearLayout>

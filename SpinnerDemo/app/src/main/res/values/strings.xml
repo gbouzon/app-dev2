@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SpinnerDemo</string>
+    <string-array name="numbers">
+        <item>USD</item>
+        <item>CAD</item>
+        <item>INR</item>
+        <item>PLN</item>
+        <item>Rub</item>
+        <item>Yen</item>
+        <item>UAH</item>
+        <item>Sterling</item>
+        <item>Eur</item>
+    </string-array>
+</resources>
